@@ -1,7 +1,7 @@
 # leetcode
 coding with lin
 
-#### 1.Minimum Depth of Binary Tree
+## 1.Minimum Depth of Binary Tree
 - 二叉树的遍历包括：
   - 前序遍历
   - 中序遍历
