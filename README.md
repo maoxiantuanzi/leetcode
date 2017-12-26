@@ -23,3 +23,8 @@ Coding with Lin on https://leetcode.com
 - Points:
   - atoi()不是跨平台的，Windows下可用，Linux下需要加.c_str()
   - 整型转字符串：to_string()
+## 3. Max Points On A Line（未完成）
+## 4. Sort List（148）
+- 使用归并排序
+- 快慢指针法
+- 递归or迭代
