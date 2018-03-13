@@ -39,3 +39,8 @@ Coding with Lin on https://leetcode.com
 * 二叉树的后序遍历：左子树→右子树→根节点
 * 非递归实现
 * stack 栈
+## 7. Binary Tree Preorder Traversal (144)
+* 二叉树的先序遍历：根节点→左子树→右子树
+* 非递归实现
+* stack 栈
+* vector 向量
