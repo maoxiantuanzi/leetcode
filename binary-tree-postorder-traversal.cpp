@@ -30,7 +30,7 @@ public:
             else
             {
                 pre=cur;
-                v.push_back(pre->val);
+                v.push_back(pre->val);  //在vector尾部加一个数据
                 s.pop();
             }
         }//while
