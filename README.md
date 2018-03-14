@@ -59,9 +59,21 @@ Coding with Lin on https://leetcode.com
 * 此题是使用**快慢指针法**的典型例子，若链表中有环，则两个指针必定相遇
 * 注意考虑链表为空的情况
 * 注意循环结束的判断条件
-## 10. Linked List Cycle II(142)
+## 10. Linked List Cycle II (142)
 * 第一步同Linked List Cycle一样，使用**快慢指针法**确定链表中是否有环
 ![142](https://raw.githubusercontent.com/pengtt0119/leetcode/master/pic/142.png)
 * 如图中所示，应考虑此种环的情况
 * 如果快慢指针相遇了，把其中一个指针重新放到开头，快慢指针一起一步一步走再次相遇即是环的入口（有数学证明）
 * 注意考虑链表为空的情况
+## 11. Word Break (139) medium
+* 本题使用了动态规划求解
+* 字符串
+  * 长度：```.size()```
+  * 求字符串的子串：```s.substr(起始字符,子串长度)```
+* vector:
+  * 初始化vector：```vector<bool> dp(len, false)```
+  * vector.end()指向最后一个元素的下一个，而rbegin()指向最后一个,begin()指向第一个元素，rend()指向第一个元素
+* find()函数：
+  * 头文件：```#include <algorithm>```
+  * 作用：查找第一次出现的字符串
+  * find(first, last, val)
