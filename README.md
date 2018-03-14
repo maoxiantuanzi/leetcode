@@ -61,7 +61,7 @@ Coding with Lin on https://leetcode.com
 * 注意循环结束的判断条件
 ## 10. Linked List Cycle II(142)
 * 第一步同Linked List Cycle一样，使用**快慢指针法**确定链表中是否有环
-[pic/142.png][1]
+![pic/142.png][1]
 * 如图中所示，应考虑此种环的情况
 * 如果快慢指针相遇了，把其中一个指针重新放到开头，快慢指针一起一步一步走再次相遇即是环的入口（有数学证明）
 * 注意考虑链表为空的情况
