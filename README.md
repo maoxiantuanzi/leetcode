@@ -14,14 +14,14 @@ Coding with Lin on https://leetcode.com
 ## 2. Evaluate Reverse Polish Notation（150）
 - Vector
   - 向量 vector 是一种对象实体, 能够容纳许多其他类型相同的元素, 因此又被称为容器。 与string相同, vector 同属于STL(Standard Template Library, 标准模板库)中的一种自定义的数据类型, 可以广义上认为是数组的增强版。
-  - 在使用它时, 需要包含头文件 vector, #include<vector>
+  - 在使用它时, 需要包含头文件 vector, ```#include<vector>```
   - vector 容器与数组相比其优点在于它能够根据需要随时自动调整自身的大小以便容下所要放入的元素。此外, vector 也提供了许多的方法来对自身进行操作。
 - String
   - 注意双引号
 - Stack
-  - empty, size, push, pop, top
+  - ```empty```, ```size```, ```push```, ```pop```, ```top```
 - Points:
-  - atoi()不是跨平台的，Windows下可用，Linux下需要加.c_str()
+  - ```atoi()```不是跨平台的，Windows下可用，Linux下需要加```.c_str()```
   - 整型转字符串：to_string()
 ## 3. Max Points On A Line（未完成）
 ## 4. Sort List（148）
@@ -72,8 +72,8 @@ Coding with Lin on https://leetcode.com
   * 求字符串的子串：```s.substr(起始字符,子串长度)```
 * vector:
   * 初始化vector：```vector<bool> dp(len, false)```
-  * vector.end()指向最后一个元素的下一个，而rbegin()指向最后一个,begin()指向第一个元素，rend()指向第一个元素
+  * ```vector.end()```指向最后一个元素的下一个，而```rbegin()```指向最后一个,```begin()```指向第一个元素，```rend()```指向第一个元素
 * find()函数：
   * 头文件：```#include <algorithm>```
   * 作用：查找第一次出现的字符串
-  * find(first, last, val)
+  * ```find(first, last, val)```
