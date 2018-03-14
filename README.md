@@ -44,3 +44,11 @@ Coding with Lin on https://leetcode.com
 * 非递归实现
 * stack 栈
 * vector 向量
+## 8. Reorder List (143)
+* 分三步解决此问题：
+    * finding the middle node(使用前后指针法)
+    * reverse the the latter half(使用三个指针完成)
+    * merge two part
+* 注意链表为空的情况
+* 注意指针是否指向空值
+* 注意前后指针法里第二个指针赋值为 ```p2=p2->next->next;``` 
