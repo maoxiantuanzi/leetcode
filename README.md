@@ -51,4 +51,7 @@ Coding with Lin on https://leetcode.com
     * merge two part
 * 注意链表为空的情况
 * 注意指针是否指向空值
-* 注意前后指针法里第二个指针赋值为 ```p2=p2->next->next;``` 
+* 注意前后指针法里第二个指针赋值为 
+  ```c++ 
+    p2=p2->next->next;
+  ``` 
