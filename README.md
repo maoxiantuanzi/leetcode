@@ -46,13 +46,16 @@ Coding with Lin on https://leetcode.com
 * vector 向量
 ## 8. Reorder List (143)
 * 分三步解决此问题：
-    * finding the middle node(使用快慢指针法)
+    * finding the middle node(使用**快慢指针法**)
     * reverse the the latter half(使用三个指针完成)
     * merge two part
 * 注意链表为空的情况
 * 注意指针是否指向空值
-* 注意快慢指针法里第二个指针赋值为 ```p2=p2->next->next;```
+* 注意快慢指针法里第二个指针赋值为
+  ```c++
+    p2=p2->next->next;
+  ```
 ## 9. Linked List Cycle (141)
-* 此题是使用快慢指针法的典型例子，若链表中有环，则两个指针必定相遇
+* 此题是使用**快慢指针法**的典型例子，若链表中有环，则两个指针必定相遇
 * 注意考虑链表为空的情况
 * 注意循环结束的判断条件
