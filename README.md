@@ -77,5 +77,11 @@ Coding with Lin on https://leetcode.com
   * 头文件：```#include <algorithm>```
   * 作用：查找第一次出现的字符串
   - 用法：```find(first, last, val)```
-
-
+## 12. Word Break II (140) hard(未完成)
+## 13. Climbing Stairs (70) easy
+* 动态规划
+* 与斐波那契数列相似
+## 14. Triangle (120) medium
+* 注意题目要求的空间复杂度为O(n)
+* 自底向上,动态规划
+* 注意判断语句中为**'=='**
