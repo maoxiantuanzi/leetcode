@@ -84,4 +84,7 @@ Coding with Lin on https://leetcode.com
 ## 14. Triangle (120) medium
 * 注意题目要求的空间复杂度为O(n)
 * 自底向上,动态规划
-* 注意判断语句中为**'=='**
+* 注意判断语句中为 **'=='**
+## 15. Gray Code (89) medium
+* 寻找规律
+* 每次都将已经求出的前size个graycode逆序(为了保证相邻数字有至少一位相同)在最高一位+1，然后将得到的结果追加到res中，每一次循环追加当前size个graycode
